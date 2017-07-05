@@ -1,0 +1,25 @@
+{
+  "name": "cssanimate",
+  "version": "1.0.0",
+  "description": "personal css animate set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/*.css --autoprefixer -d build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swust-xiaoj/cssanimate.git"
+  },
+  "keywords": [],
+  "author": "xiaojie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swust-xiaoj/cssanimate/issues"
+  },
+  "homepage": "https://github.com/swust-xiaoj/cssanimate#readme",
+  "devDependencies": {
+    "postcss-loader": "^2.0.6",
+    "webpack": "^3.0.0"
+  }
+}
